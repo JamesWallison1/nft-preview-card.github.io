@@ -144,3 +144,15 @@ span {
 span:hover {
     color: var(--Cyan);
 }
+
+@media screen and (max-width: 375px){
+    .container{
+        max-width: 80%;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .container{
+        max-width: 20%;
+    }
+}
